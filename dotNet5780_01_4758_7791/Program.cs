@@ -11,26 +11,6 @@ namespace dotNet5780_01_4758_7791
         static Random r = new Random(DateTime.Now.Millisecond);
         static void Main(string[] args)
         {
-            //Console.WriteLine("Enter your choice between the 2 exercices");
-            //int choice = Int32.Parse(Console.ReadLine());
-            //do
-            //{
-            //    switch (choice)
-            //    {
-            //        case 1:
-            //            Part_1 t1 = new Part_1();
-            //            t1.hagrel(r);
-            //            t1.showResults();
-            //            break;
-            //        case 2:
-            //            Part_2 t2 = new Part_2();
-            //            Console.WriteLine("Enter your choice");
-            //            int choix = Int32.Parse(Console.ReadLine());
-            //            break;
-            //        default:
-            //            break;
-            //    }
-            //} while (choice !=0);
 
             Console.WriteLine("Please choose between 'cheela1' or 'cheela2'");
             string choice = Console.ReadLine();

@@ -16,18 +16,18 @@ namespace dotNet5780_01_4758_7791
             do
             {
                 choice = runtafrit();
-                if (choice==4)
-                {
-                    break;
-                }
-                Console.WriteLine("Do you want to continue ?\n");
-                string rep = Console.ReadLine();
-                if (rep == "No" || rep == "NO" || rep == "No")
-                {
-                    flag = false;
-                    break;
-                }
-            } while (flag);
+                //if (choice==4)
+                //{
+                //    break;
+                //}
+                //Console.WriteLine("Do you want to continue ?\n");
+                //string rep = Console.ReadLine();
+                //if (rep == "No" || rep == "NO" || rep == "No")
+                //{
+                //    flag = false;
+                //    break;
+                //}
+            } while (choice != 4);
 
         }
 
